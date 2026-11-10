@@ -1,0 +1,12 @@
+[
+  {"text": "Quero cancelar meu plano imediatamente! Vocês são péssimos!", "expected_intent": "CANCELAMENTO", "expected_action": "HUMAN_HANDOFF"},
+  {"text": "Estorno não caiu na minha conta, estou indo no Procon se não resolverem.", "expected_intent": "CANCELAMENTO", "expected_action": "HUMAN_HANDOFF"},
+  {"text": "Quanto custa o plano empresarial de vocês? Gostaria de contratar.", "expected_intent": "VENDAS", "expected_action": "AUTO_REPLY"},
+  {"text": "Qual o preço da assinatura anual?", "expected_intent": "VENDAS", "expected_action": "AUTO_REPLY"},
+  {"text": "O sistema está fora do ar, deu erro 500 no painel principal.", "expected_intent": "SUPORTE_TECNICO", "expected_action": "HUMAN_HANDOFF"},
+  {"text": "Não consigo resetar minha senha, a tela de login não funciona.", "expected_intent": "SUPORTE_TECNICO", "expected_action": "HUMAN_HANDOFF"},
+  {"text": "Bom dia, gostaria de saber o horário de atendimento.", "expected_intent": "OUTROS", "expected_action": "AUTO_REPLY"},
+  {"text": "Vocês possuem filial física em Florianópolis?", "expected_intent": "OUTROS", "expected_action": "AUTO_REPLY"},
+  {"text": "Cancelem essa cobrança indevida agora!", "expected_intent": "CANCELAMENTO", "expected_action": "HUMAN_HANDOFF"},
+  {"text": "Adorei a plataforma! Quero comprar mais 5 licenças para meu time.", "expected_intent": "VENDAS", "expected_action": "AUTO_REPLY"}
+]
