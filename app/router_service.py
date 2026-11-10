@@ -55,7 +55,7 @@ def call_llm_classification(user_text: str) -> LLMClassification:
     # Motor de Fallback determinístico (ideal para testes locais e resiliência offline)
     text_lower = user_text.lower()
     
-    if any(k in text_lower for k in ["cancelar", "cancelamento", "reembolso", "estorno", "procon"]):
+    if any(k in text_lower for k in ["cancelar", "cancelamento", "cancelem", "reembolso", "estorno", "procon"]):
         return LLMClassification(
             intent=IntentEnum.CANCELAMENTO,
             sentiment=SentimentEnum.FRUSTRADO,
